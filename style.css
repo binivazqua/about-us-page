@@ -5,35 +5,21 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+
     
 
 }
 
-.second-section {
-    width: 100%;
-    min-width: 100vh;
+.core-values-container{
     display: flex;
-    justify-content: center;
-    align-content: center;
-
-}
-
- .core-values-container {
+    flex-flow: nowrap;
     width: 100%;
-    max-width: 1440px;
-    display:flex;
     justify-content: center;
     align-items: center;
-    flex-flow: wrap;
-   
+    /*flex-direction: row;*/
+
 }
 
 .box {
-    width: 269px;
-    padding: 15px;
-    min-height: 430px ;
-}
-
-.box-1 {
 
 }
