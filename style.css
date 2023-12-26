@@ -1,25 +1,101 @@
 /* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+@font-face {
+    font-family: Industry;
+    src: url("/resources/Industry-BoldItalic.ttf");
+}
 
 /* containers */
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    /*border: 3px solid red;*/
+
+}
+
+/* general */
+h2 {
+    font-family: 'Industry';
+}
+h1 {
+    font-family: 'Industry';
+    font-size: 3rem;
+}
+
+p {
+    font-family: 'Inter', sans-serif;
+}
+
+
+body {
+    
+    justify-content: center !important;
+    
+}
+
+/* DESCUBRIMIENTO MISTERIOSO:
+si quieres tener dos bloques adyacentes como en un layout,
+ambos bloques pueden estar en flex y centrados, cada uno
+va a ocupar 50% del frame.
+main {
+    display: flex;
+    justify-content: center;
+}
+*/
+
+/* SECTIONS RESPONSIVE SHIT */
+
+.first-section{
+    /*background-color: chartreuse;*/
+    text-align: center;
 
     
+}
 
+.second-section {
+    /*background-color: aquamarine;*/
+    text-align: center;
+}
+
+.container  {
+    display: flex;
+    height: 500px;
+    border: 2px solid yellow;
 }
 
 .core-values-container{
+
     display: flex;
-    flex-flow: nowrap;
+    /*flex-flow: nowrap;*/
     width: 100%;
+    max-width: 1440px;
     justify-content: center;
     align-items: center;
-    /*flex-direction: row;*/
-
+    border: 3px solid red;
+    vertical-align: middle;
+    margin: auto;
 }
 
 .box {
+    width: 30%;
+    padding: 2rem;
+    min-height: 430px;
+    border: 3px solid cyan;
+}
 
+.content {
+    text-align: left;
+}
+
+.content h2 {
+   font-size: 2rem;
+   text-align: center;
+   padding-bottom: 2rem;
+   text-transform: uppercase;
+}
+
+.content p {
+    line-height: 2rem;
 }
