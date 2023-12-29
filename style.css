@@ -50,6 +50,8 @@ main {
 .first-section{
     /*background-color: chartreuse;*/
     text-align: center;
+    background-color: aquamarine;
+    height: 1000px;
 
     
 }
@@ -57,6 +59,38 @@ main {
 .second-section {
     /*background-color: aquamarine;*/
     text-align: center;
+   
+}
+
+.even-cols {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    margin: 10% auto;
+   
+   
+
+}
+
+
+.image-even-cols {
+    flex: 1;
+    width: 600px;
+    margin: auto;
+     
+}
+
+.container img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.content-even-cols {
+    flex: 1;
+    width: 600px;
+    margin: 0px 25px;
 }
 
 .container  {
