@@ -12,7 +12,7 @@ body {
     align-items: center;
     justify-content: center;
     position: relative;  /* segun google que para que todo lo que posicione sea relatiov al body*/
-
+    background-color: white;
 }
 /* containers */
 * {
@@ -173,6 +173,7 @@ main {
     font-size: 3em;
     min-width: 280px;
     color: black;
+    margin-top: 50px;
 }
 
 .animated-text span {
@@ -248,7 +249,8 @@ main {
     max-width: 1400px; /*no SE*/
     /*background-color: red;*/
     width: 100%;
-    padding: 80px 0;
+    padding-top: 80px;
+    padding-bottom: 20px;
     overflow: hidden; /* muajaj y no se ve comotequedass*/
     font-family: 'Inter';
    
@@ -384,11 +386,11 @@ main {
 }
 
 .button label { /* se puede poner classes a labels q */
-    padding-top: 0;
+    
     height: 15px;
     width: 15px;
     border-radius: 20px;
-    background-color: red;
+    background-color: black;
     margin: 0 4px;
 
     /* transition pq no se vea feito */
@@ -399,4 +401,25 @@ main {
 .button label.active-second { /* .one o .active es lo mismo. así se ve bonito */
     width: 35px; /* se hace anchito pq parzca un slider y no dos puntitos separdos */
     
+}
+
+/* ++++++++++++++ slide left to right transition ++++++++++++++++++++++++ */
+
+#one:checked ~ .button label.one { /* va a triggerear los elementos quedespués de estar checkesdo cumplen con esas clases */
+    width: 35px; /* se checkea el rpiermero, so se hace anchito*/
+}
+
+#two:checked ~ .button label.two{
+    width: 35px; /*se checkea el segundo radio y el segundo labelse hace anchito*/
+} 
+#two:checked ~ .button label.one{
+    width: 15px; /* se checkea el segundo radioy el primer label se hace chiquito */
+}
+
+#one:checked ~ .button label.two {
+    width: 15px; /* se chequea el primer radio y el seundo label dse hace chiquito */
+}
+
+input[type="radio"] { /* desaparecer los radios jejshj*/
+    display: none;
 }
