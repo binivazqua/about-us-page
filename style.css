@@ -397,8 +397,7 @@ main {
     transition: all 0.5s ease;
 }
 
-.button label.active,
-.button label.active-second { /* .one o .active es lo mismo. así se ve bonito */
+.button label.one-active { /* .one o .active es lo mismo. así se ve bonito */
     width: 35px; /* se hace anchito pq parzca un slider y no dos puntitos separdos */
     
 }
