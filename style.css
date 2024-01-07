@@ -80,24 +80,31 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: auto;
     width: auto;
-    margin: 10% auto;
-   
-   
-
+  
 }
 
 
 .image-even-cols img {
 
     flex: 1;
-    width: 60%;
+    width: 100%;
     height: auto;
     margin-left: 100px;
     border-radius: 10px;
-    /*margin-top: 20%;*/
-     
+    /*margin-top: 20%;
 }
+ 
+/*
+.image-even-cols {
+    display: flex;
+    float: left;
+    justify-content: center;
+    margin: auto;
+    padding-bottom: 10%;
+}
+
 
 .content-even-cols {
     flex: 1;
@@ -108,6 +115,8 @@ main {
 .container  {
     display: flex;
     height: 500px;
+    justify-content: center;
+    margin: auto;    
     /*border: 2px solid yellow;*/
 }
 
