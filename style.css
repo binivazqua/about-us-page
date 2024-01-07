@@ -258,7 +258,7 @@ main {
 }
 
 .third-section-container .main-card, 
-.third-section-members .second-card {
+.third-section-container .second-card {
     width: 200%; /* ps ya ni modo*/
     /*background-color: grey;*/
     display: flex;
