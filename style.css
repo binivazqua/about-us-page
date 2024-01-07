@@ -76,6 +76,11 @@ main {
    
 }
 
+.second-card .container {
+    vertical-align: middle;
+    height: 500px;
+}
+
 .even-cols {
     display: flex;
     align-items: center;
@@ -117,30 +122,7 @@ main {
     width: auto;
     padding: 20px;
 }
-/*
-.image-even-cols {
-    display: flex;
-    float: left;
-    justify-content: center;
-    margin: auto;
-    padding-bottom: 10%;
-}
 
-
-.content-even-cols {
-    flex: 1;
-    width: 600px;
-    margin: 0px 25px;
-}
-
-
-.container  {
-    display: flex;
-    height: 500px;
-    justify-content: center;
-    margin: auto;    
-    /*border: 2px solid yellow;*/
-}
 
 .content-even-cols h1 {
     padding: 3rem 0;
