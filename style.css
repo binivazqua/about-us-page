@@ -34,6 +34,7 @@ h1 {
 
 h1 {
     font-size: 3rem;
+    color: red;
 }
 
 p {
@@ -44,7 +45,7 @@ p {
 
 body {
     
-    justify-content: center !important;
+    justify-content: center;
     
 }
 
@@ -62,7 +63,7 @@ main {
 
 .first-section{
     /*background-color: chartreuse;*/
-    text-align: center;
+    text-align: justify;
     height: auto;
     margin: 5%;
 
@@ -88,10 +89,11 @@ main {
 
 
 .image-even-cols img {
+
     flex: 1;
     width: 60%;
     height: auto;
-    margin: auto;
+    margin-left: 100px;
     border-radius: 10px;
     /*margin-top: 20%;*/
      
@@ -114,8 +116,15 @@ main {
 }
 
 
-/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+/* ++++++++++++++++++++++++ SECOND SECTION ++++++++++++++++++++++++++++++++++*/
 
+.second-section {
+    width: 100%;
+    padding-bottom: 5%;
+    padding-top: 2.5%;
+    background-color: black;
+    justify-content: center;
+}
 
 .core-values-container{
 
@@ -125,7 +134,7 @@ main {
     max-width: 1440px;
     justify-content: center;
     align-items: center;
-    border: 3px solid red;
+    /*border: 3px solid red;*/
     vertical-align: middle;
     margin: auto;
 }
@@ -154,8 +163,22 @@ main {
 
 .second-section-title {
     padding: 2rem 0;
+    color: white;
 }
 
+/* ++++++++++++++++++++++++++++ BOX PERSONALIZATION +++++++++++++++++++++++++++*/
+
+.box-1 {
+    background-color: #AB000A;
+}
+
+.box-2 {
+    background-color: #CC0020;
+}
+
+.box-3 {
+    background-color: #EE2737;
+}
 /* ++++++++++++++++++++++++++++ THIRD SECTION ALIGNMENT ++++++++++++++++++++++++++++*/
 
 .third-section-members {
