@@ -89,13 +89,34 @@ main {
 .image-even-cols img {
 
     flex: 1;
-    width: 100%;
+    width: 80%;
     height: auto;
     margin-left: 100px;
     border-radius: 10px;
-    /*margin-top: 20%;
+    margin-top: 20%;
 }
- 
+
+.content-even-cols {
+    width: 50%;
+    margin: auto;
+    padding-top: 10%;
+}
+
+.content-even-cols .primary-title {
+    padding-bottom: 5%;
+    text-align: center;
+}
+
+.content-even-cols p {
+    text-align: justify;
+    line-height: 2.5rem;
+    
+}
+
+.paragraph {
+    width: auto;
+    padding: 20px;
+}
 /*
 .image-even-cols {
     display: flex;
@@ -111,6 +132,7 @@ main {
     width: 600px;
     margin: 0px 25px;
 }
+
 
 .container  {
     display: flex;
