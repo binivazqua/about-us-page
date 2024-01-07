@@ -423,7 +423,7 @@ main {
 }
 
 #two-second:checked ~ .button label.two-second {
-    width: 15px;
+    width: 35px;
 }
 
 #two-second:checked ~ .button label.one.active-second {
