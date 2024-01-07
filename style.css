@@ -433,6 +433,7 @@ main {
 #one-second:checked ~ .button label.two-second {
     width: 15px;
 }
+
 input[type="radio"] { /* desaparecer los radios jejshj*/
     display: none;
 }
