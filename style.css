@@ -416,6 +416,23 @@ main {
     width: 15px;
 }
 
+/* second card container */
+
+#one-second:checked ~ .button label.one.active-second {
+    width: 35px;
+}
+
+#two-second:checked ~ .button label.two-second {
+    width: 15px;
+}
+
+#two-second:checked ~ .button label.one.active-second {
+    width: 15px;
+}
+
+#one-second:checked ~ .button label.two-second {
+    width: 15px;
+}
 input[type="radio"] { /* desaparecer los radios jejshj*/
     display: none;
 }
