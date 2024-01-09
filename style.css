@@ -280,6 +280,11 @@ main {
 
 /* OUR MEMBERS containers */
 
+.third-section-members {
+    width: 100%;
+    height: auto;
+    background-color:  #EE2737;
+}
 
 .third-section-container {
     max-width: 1400px; /*no SE*/
