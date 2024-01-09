@@ -87,6 +87,7 @@ main {
     justify-content: center;
     margin: auto;
     width: auto;
+    height: 20%;
   
 }
 
@@ -98,13 +99,12 @@ main {
     height: auto;
     margin-left: 100px;
     border-radius: 10px;
-    margin-top: 20%;
+    margin: 0 auto
 }
 
 .content-even-cols {
     width: 50%;
-    margin: auto;
-    padding-top: 10%;
+    margin: 0 auto;
 }
 
 .content-even-cols .primary-title {
@@ -283,7 +283,7 @@ main {
 .third-section-members {
     width: 100%;
     height: auto;
-    background-color:  #EE2737;
+   
 }
 
 .third-section-container {
