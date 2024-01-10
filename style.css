@@ -103,6 +103,8 @@ header ul li:hover :not(#logo-engrane) {
 header ul li #logo-engrane:hover {
     background-color: white;
 }
+
+
 /* DESCUBRIMIENTO MISTERIOSO:
 si quieres tener dos bloques adyacentes como en un layout,
 ambos bloques pueden estar en flex y centrados, cada uno
