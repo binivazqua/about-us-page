@@ -56,7 +56,7 @@ header {
     padding: 20px;
     height: 110px;
     width: 100%;
-    position: fixed;
+   
     z-index: 3;
     animation: navLoad 1.5s;
     display: flex;
@@ -105,6 +105,12 @@ header ul li #logo-engrane:hover {
     background-color: white;
 }
 
+#logo-engrane {
+    height: 100px;
+    width: auto;
+    border-radius: 10px;
+}
+
 #logo-a:hover {
     color: transparent !important;
 }
@@ -116,6 +122,8 @@ header a {
     font-weight: bold;
     margin: 0;
     padding: 0.5rem;
+    font-family: 'Inter', sans-serif;
+    
 
 }
 
