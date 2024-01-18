@@ -563,3 +563,28 @@ input[type="radio"] { /* desaparecer los radios jejshj*/
     display: none;
 }
 
+/* footer */
+
+footer {
+    height: auto;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    background-color: red;
+}
+
+footer .contact-us-logos {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    justify-content: center;
+}
+
+footer .contact-us-logos nav{
+    padding: 2rem;
+}
+
+footer .contact-us-logos nav:hover {
+    transform:translateY(-15px); 
+}
+
