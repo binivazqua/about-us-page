@@ -179,6 +179,9 @@ main {
   
 }
 
+.image-even-cols {
+    text-align: center;
+}
 
 .image-even-cols img {
 
@@ -187,7 +190,8 @@ main {
     height: auto;
     margin-left: 100px;
     border-radius: 10px;
-    margin: 0 auto
+    margin: 0 auto;
+    
 }
 
 .content-even-cols {
@@ -216,6 +220,17 @@ main {
     padding: 3rem 0;
 }
 
+@media screen and (min-width: 1300px ) {
+    .even-cols {
+        flex-direction: column-reverse;
+        text-wrap: wrap;
+        padding: auto;
+      
+    }
+    .content-even-cols {
+        width: 80%;
+    }
+}
 
 /* ++++++++++++++++++++++++ SECOND SECTION ++++++++++++++++++++++++++++++++++*/
 
