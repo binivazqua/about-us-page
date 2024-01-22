@@ -33,8 +33,12 @@ h1 {
 }
 
 h1 {
-    font-size: 3rem;
+    font-size: 60px;
     color: red;
+}
+
+h2 {
+    font-size: 60px; 
 }
 
 p {
@@ -572,12 +576,16 @@ footer {
     text-align: center;
     background-color: red;
 }
-
+footer h2 {
+    padding-top: 2rem;
+}
 footer .contact-us-logos {
     display: flex;
     flex-direction: row;
-    align-self: center;
+    align-self: baseline;
+    vertical-align: bottom;
     justify-content: center;
+    color: black;
 }
 
 footer .contact-us-logos nav{
